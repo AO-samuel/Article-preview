@@ -1,0 +1,58 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    position: relative;
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    left: 25%;
+    top: 1150%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px  hsl(212, 23%, 69%);
+}
+
+.container h1{
+    font-size: 25px;
+    color: hsl(217, 19%, 35%);
+}
+
+.drawer{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px 0 0 20px ;
+    float: left;
+}
+.content{
+    padding: 20px 20px 20px 370px;
+}
+.content p{
+    color: hsl(212, 23%, 69%);
+}
+.avatar{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.svg{
+    margin-left: 90px;
+    display: inline-block;
+    background-color: hsl(210, 46%, 95%);
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+.end{
+    margin: 15px;
+    display: inline-block;
+    color: hsl(212, 23%, 69%);
+}
+.end b{
+    color:hsl(217, 19%, 35%);
+}
